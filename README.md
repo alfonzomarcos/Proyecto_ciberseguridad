@@ -2,6 +2,8 @@
 
 Proyecto educativo que simula la banca online de un banco ficticio. Los usuarios pueden iniciar sesión, ver su saldo y sus movimientos, y hacer transferencias. **Todos los datos son ficticios.** No usar con información real.
 
+link: https://alfonzomarcos.github.io/Proyecto_ciberseguridad/
+
 ## Objetivo
 
 Mostrar un primer acercamiento práctico al desarrollo seguro: identificar riesgos habituales en aplicaciones web (autenticación, control de acceso, validación de datos) y verificar con pruebas que las protecciones funcionan.
