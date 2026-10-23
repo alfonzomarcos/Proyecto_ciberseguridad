@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banco Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Banco Demo</h1>
+    <span class="badge">Proyecto educativo · datos ficticios</span>
+  </header>
+
+  <main>
+    <!-- LOGIN -->
+    <section id="login-view" class="card">
+      <h2>Ingresar</h2>
+      <form id="login-form" autocomplete="off">
+        <label>Usuario <input id="username" maxlength="30" required></label>
+        <label>Contraseña <input id="password" type="password" maxlength="72" required></label>
+        <button type="submit">Entrar</button>
+        <p id="login-error" class="error" role="alert"></p>
+      </form>
+      <p class="hint">Demo: <code>ana</code> / <code>Ana-Demo-2024!</code></p>
+    </section>
+
+    <!-- PANEL -->
+    <section id="dashboard-view" hidden>
+      <div class="card">
+        <div class="row">
+          <h2 id="welcome"></h2>
+          <button id="logout" class="secondary">Salir</button>
+        </div>
+        <p class="muted">Cuenta <strong id="account-number"></strong></p>
+        <p class="balance" id="balance"></p>
+      </div>
+
+      <div class="card">
+        <h3>Transferir</h3>
+        <form id="transfer-form">
+          <label>Cuenta destino <input id="to" placeholder="AR00-0001-0102" required></label>
+          <label>Importe (ARS) <input id="amount" type="number" step="0.01" min="0.01" required></label>
+          <label>Concepto <input id="concept" maxlength="60" required></label>
+          <button type="submit">Enviar</button>
+          <p id="transfer-msg" role="alert"></p>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3>Movimientos</h3>
+        <table>
+          <thead><tr><th>Fecha</th><th>Concepto</th><th class="num">Importe</th></tr></thead>
+          <tbody id="movements"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
