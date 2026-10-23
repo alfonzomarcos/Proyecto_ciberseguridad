@@ -71,12 +71,8 @@ Usuarios de prueba:
 - No hay autenticación de dos factores, recuperación de contraseña ni persistencia de sesiones en un almacén externo.
 - El bloqueo por intentos se guarda en memoria y no está pensado para varios servidores.
 
-## Posibles mejoras
-
-Base de datos con consultas parametrizadas, 2FA, HTTPS, rate limiting general, almacén de sesiones persistente y análisis de dependencias con `npm audit`.
 
 
 
-> **Proyecto personal: aplicación web bancaria simulada con controles de ciberseguridad.** Desarrollo en Node.js/Express y JavaScript de una aplicación con autenticación, hash de contraseñas (bcrypt), bloqueo ante fuerza bruta, control de acceso por usuario (prevención de IDOR), protección CSRF, validación estricta de entradas y registro de eventos de seguridad. Escritura de pruebas automáticas para verificar que un usuario no pueda acceder a datos de otro.
 
-*Incluí en tu CV solamente lo que hayas ejecutado y verificado vos.*
+
