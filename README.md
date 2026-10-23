@@ -75,7 +75,7 @@ Usuarios de prueba:
 
 Base de datos con consultas parametrizadas, 2FA, HTTPS, rate limiting general, almacén de sesiones persistente y análisis de dependencias con `npm audit`.
 
-## Texto para el CV
+
 
 > **Proyecto personal: aplicación web bancaria simulada con controles de ciberseguridad.** Desarrollo en Node.js/Express y JavaScript de una aplicación con autenticación, hash de contraseñas (bcrypt), bloqueo ante fuerza bruta, control de acceso por usuario (prevención de IDOR), protección CSRF, validación estricta de entradas y registro de eventos de seguridad. Escritura de pruebas automáticas para verificar que un usuario no pueda acceder a datos de otro.
 
